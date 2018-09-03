@@ -1,6 +1,6 @@
 from os import getenv
-from ga_cassandra_connector import CassandraPersistance
-from ga_main_connector import GoogleAnalytics
+from main_connectors.ga_cassandra_connector import CassandraPersistance
+from main_connectors.ga_main_connector import GoogleAnalytics
 
 
 class GoogleAnalyticsChurn():
